@@ -270,11 +270,10 @@ public class TCPClient {
     {
     	int next = temp2;
 
-    	if (BattleField[next][temp1] != '\u25A0')
-            return 2;
-
         for (int l = 0; l < len; l++)
         {
+        	if (BattleField[next][temp1] != '\u25A0')
+            	return 2;
         	if ((temp1 - 1 >= 0) && (BattleField[next][temp1 - 1] != '\u25A0'))
             	return 2;
         	if ((next - 1 >= 0) && (BattleField[next - 1][temp1] != '\u25A0'))
