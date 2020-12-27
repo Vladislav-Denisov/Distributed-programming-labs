@@ -1,1 +1,0 @@
-D:\Vladislav\Documents\#LEARNING\4_year\Distributed-Programming\LABS\Technical_support\client\src\main\java>"C:\Program Files\Java\jdk1.8.0_271\bin\wsimport.exe" http://localhost:8888/TaskService?wsdl -keep
